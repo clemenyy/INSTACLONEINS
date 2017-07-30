@@ -4,32 +4,6 @@
 }
 
 .explore__users {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  width: 100%;
-  max-width: 600px;
-  background: white;
-  padding: 10px 20px 10px 20px;
-=======
->>>>>>> master
-}
-
-.explore__users .explore__user {
-  padding: 10px 15px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, .0975);
-}
-
-<<<<<<< HEAD
-.explore__user button:active {
-  opacity: 0.5;
-=======
-=======
->>>>>>> master
 }
 
 .explore__users .explore__user {
@@ -43,14 +17,6 @@
 
 .explore__users .explore__user:last-child {
   border: 0;
-<<<<<<< HEAD
->>>>>>> master
-=======
-.explore__users .explore__user:last-child {
-  border: 0;
->>>>>>> master
-=======
->>>>>>> master
 }
 
 .explore__user .explore__content {
@@ -62,52 +28,6 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  margin-right: 15px;
-  transform-style: preserve-3d;
-  animation: 6s potato infinite ease-in-out;
->>>>>>> master
-}
-
-@keyframes horse {
-  to {
-    transform: none;
-  }
-  from {
-    transform: rotateY(360deg);
-  }
-}
-
-@keyframes potato {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: rotateY(180deg);
-  }
-  100% {
-    transform: none;
-  }
-}
-
-.explore__info .explore__username {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 7px;
-}
-
-<<<<<<< HEAD
-.explore__user .explore__content .explore__full-name {
-  display: flex;
-  margin-left: 15px;
-  margin-top: 3px;
-  font-size: 12px;
-=======
-=======
->>>>>>> master
   margin-right: 15px;
   transform-style: preserve-3d;
   animation: 6s potato infinite ease-in-out;
@@ -140,8 +60,6 @@
   margin-bottom: 7px;
 }
 
-=======
->>>>>>> master
 .explore__info .explore__full-name {
   color: #999;
 }
@@ -156,26 +74,6 @@
   font-size: 14px;
   cursor: pointer;
   transition: all .5s ease-in-out;
-=======
-  width: 100%;
-  max-width: 600px;
-  background: white;
-  padding: 10px 20px 10px 20px;
-}
-
-.explore__user button {
-  display: inline-block;
-  margin-left: 330px;
-  color: #FFF;
-  font-weight: 600;
-  padding: 5px 10px;
-  border: 1px;
-  border-radius: 3px;
-  background: #3897f0;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
->>>>>>> bc3a187ae967658b37ba8a19bff6d00fb594db1f
 }
 
 .explore__user button:hover {
@@ -189,39 +87,4 @@
 
 .explore__user button:active {
   opacity: 0.5;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
-=======
->>>>>>> master
 }
-<<<<<<< HEAD
-=======
-
-.explore__user .explore__content {
-  display: flex;
-  align-items: center;
-}
-
-.explore__user .explore__content img {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-}
-
-.explore__user .explore__content .explore__username {
-  display: flex;
-  margin-left: 15px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.explore__user .explore__content .explore__full-name {
-  display: flex;
-  margin-left: 15px;
-  margin-top: 3px;
-  font-size: 12px;
-}
->>>>>>> bc3a187ae967658b37ba8a19bff6d00fb594db1f
