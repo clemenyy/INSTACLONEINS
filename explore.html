@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login | Jejugram</title>
+  <title>Explore | Jejugram</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/styles.css">
@@ -12,63 +12,48 @@
 <body>
   <nav class="navigation">
     <a href="feed.html">
-      <img src="images/logo.png" alt="logo">
+      <img src="images/logo.png" />
     </a>
     <input type="text" placeholder="Search">
     <div class="navigation__links">
       <a href="explore.html" class="navigation__link">
-        <i class="fa fa-compass"></i>
+          <i class="fa fa-compass"></i>
+      </a>
+      <a href="#" class="navigation__link">
+          <i class="fa fa-heart-o"></i>
       </a>
       <a href="profile.html" class="navigation__link">
-        <i class="fa fa-heart-o"></i>
-      </a>
-      <a href="profile.html" class="navigation__link">
-        <i class="fa fa-user-o"></i>
+          <i class="fa fa-user-o"></i>
       </a>
     </div>
   </nav>
-  <main>
-    <ul class="explore__list">
-      <li class="explore__list">
-        <div class="explore__id">
-          <a href="#" class="explore__id__link">
-            <img src="images/avatar.jpg" alt="avatar">
-              <span class="explore__id__text1">marchase66</span>
-          </a>
-              <span class="explore__id__text2">Marc HaSe</span>
-        </div>
-        <div>
-          <a href="#" class="button_link">
-            <button>follow</button>
-          </a>
+  <main id="explore">
+    <ul class="explore__users">
+      <li class="explore__user">
+        <div class="explore__content">
+          <img src="images/avatar.jpg" />
+          <div class="explore__info">
+            <span class="explore__username"><a href="#">serranoarevalo</a></span>
+            <span class="explore__full-name">Nicolás Serrano Arévalo</span>
+          </div>
+          <button class="button">Follow</button>
         </div>
       </li>
-      <li class="explore__list">
-        <div class="explore__id">
-          <a href="#" class="explore__id__link">
-            <img src="images/avatar.jpg" alt="avatar">
-              <span class="explore__id__text1">marchase66</span>
-          </a>
-              <span class="explore__id__text2">Marc HaSe</span>
-          <a href="#" class="button_link">
-            <button>follow</button>
-          </a>
-        </div>
-      </li>
+    </ul>
   </main>
-  <footer>
+  <footer id="footer">
     <nav class="footer__nav">
       <ul class="footer__list">
-        <li class="footer__items"><a href="#" class="footer__link">About</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Support</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Blog</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Press</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">API</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Jobs</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Privacy</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Terms</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Directory</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Language</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">About us</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Support</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Api</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Directory</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Language</a></li>
       </ul>
     </nav>
     <span class="footer__copyright">© 2017 jejugram</span>
