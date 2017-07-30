@@ -25,32 +25,19 @@
 
 .avatar__container img {
   border-radius: 50%;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
 =======
 >>>>>>> master
   transform-style: preserve-3d;
   animation: 1s horse linear;
 }
 
-@@keyframes horse {
+@keyframes horse {
   to {
     transform:rotateY(360deg);
   }
   from {
     transform: rotateY(-360deg);
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
 =======
 =======
 >>>>>>> bc3a187ae967658b37ba8a19bff6d00fb594db1f
@@ -103,14 +90,6 @@
   font-weight: 600;
   color: #003569;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> 17998078705463f2ac9ebe8426232f9b941befd6
@@ -178,11 +157,6 @@ profile__photo-row .profile__photo {
   100% {
     transform: none;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
 =======
 >>>>>>> master
 =======

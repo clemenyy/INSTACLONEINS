@@ -4,17 +4,6 @@
 }
 
 .explore__users {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  width: 100%;
-  max-width: 600px;
-  background: white;
-  padding: 10px 20px 10px 20px;
-=======
->>>>>>> master
 }
 
 .explore__users .explore__user {
@@ -26,12 +15,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, .0975);
 }
 
-<<<<<<< HEAD
 .explore__user button:active {
   opacity: 0.5;
-=======
-=======
->>>>>>> master
 >>>>>>> 17998078705463f2ac9ebe8426232f9b941befd6
 }
 
@@ -46,10 +31,6 @@
 
 .explore__users .explore__user:last-child {
   border: 0;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> master
 =======
 .explore__users .explore__user:last-child {
   border: 0;
@@ -68,13 +49,6 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 17998078705463f2ac9ebe8426232f9b941befd6
   margin-right: 15px;
   transform-style: preserve-3d;
   animation: 6s potato infinite ease-in-out;
@@ -107,17 +81,6 @@
   margin-bottom: 7px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.explore__user .explore__content .explore__full-name {
-  display: flex;
-  margin-left: 15px;
-  margin-top: 3px;
-  font-size: 12px;
-=======
-=======
->>>>>>> master
   margin-right: 15px;
   transform-style: preserve-3d;
   animation: 6s potato infinite ease-in-out;
@@ -180,41 +143,9 @@
 
 .explore__user button:active {
   opacity: 0.5;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 }
-<<<<<<< HEAD
-=======
-
-.explore__user .explore__content {
-  display: flex;
-  align-items: center;
-}
-
-.explore__user .explore__content img {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-}
-
-.explore__user .explore__content .explore__username {
-  display: flex;
-  margin-left: 15px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.explore__user .explore__content .explore__full-name {
-  display: flex;
-  margin-left: 15px;
-  margin-top: 3px;
-  font-size: 12px;
->>>>>>> 17998078705463f2ac9ebe8426232f9b941befd6
 }
