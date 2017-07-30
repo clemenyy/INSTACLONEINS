@@ -5,35 +5,25 @@
 
 .explore__users {
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 100%;
   max-width: 600px;
   background: white;
   padding: 10px 20px 10px 20px;
+=======
+>>>>>>> master
 }
 
-.explore__user button {
-  display: inline-block;
-  margin-left: 330px;
-  color: #FFF;
-  font-weight: 600;
-  padding: 5px 10px;
-  border: 1px;
-  border-radius: 3px;
-  background: #3897f0;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
+.explore__users .explore__user {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
 }
 
-.explore__user button:hover {
-  background: white;
-  color: #3897f0;
-}
-
-.explore__user button:focus {
-  outline: none;
-}
-
+<<<<<<< HEAD
 .explore__user button:active {
   opacity: 0.5;
 =======
@@ -51,6 +41,10 @@
 .explore__users .explore__user:last-child {
   border: 0;
 >>>>>>> master
+=======
+.explore__users .explore__user:last-child {
+  border: 0;
+>>>>>>> master
 }
 
 .explore__user .explore__content {
@@ -63,15 +57,42 @@
   height: 56px;
   border-radius: 50%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  margin-right: 15px;
+  transform-style: preserve-3d;
+  animation: 6s potato infinite ease-in-out;
+>>>>>>> master
 }
 
-.explore__user .explore__content .explore__username {
-  display: flex;
-  margin-left: 15px;
-  font-size: 12px;
+@keyframes horse {
+  to {
+    transform: none;
+  }
+  from {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes potato {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.explore__info .explore__username {
+  display: block;
   font-weight: 600;
+  margin-bottom: 7px;
 }
 
+<<<<<<< HEAD
 .explore__user .explore__content .explore__full-name {
   display: flex;
   margin-left: 15px;
@@ -110,6 +131,8 @@
   margin-bottom: 7px;
 }
 
+=======
+>>>>>>> master
 .explore__info .explore__full-name {
   color: #999;
 }
@@ -137,5 +160,8 @@
 
 .explore__user button:active {
   opacity: 0.5;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }

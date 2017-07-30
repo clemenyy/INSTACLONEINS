@@ -1,7 +1,13 @@
 body {
   background: #fafafa;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+>>>>>>> master
 =======
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -13,7 +19,10 @@ a {
   text-decoration: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 
 main {
   margin: 60px 0;
@@ -38,4 +47,7 @@ main {
   border: 1px solid rgba(0, 0, 0, .0975);
   border-radius: 3px;
 }
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master

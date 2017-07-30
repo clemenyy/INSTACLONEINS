@@ -26,7 +26,10 @@
 .avatar__container img {
   border-radius: 50%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
   transform-style: preserve-3d;
   animation: 1s horse linear;
 }
@@ -38,6 +41,9 @@
   from {
     transform: rotateY(-360deg);
   }
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }
 
@@ -87,7 +93,10 @@
   color: #003569;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 
 .profile__photo {
   position: relative;
@@ -152,4 +161,7 @@ profile__photo-row .profile__photo {
   100% {
     transform: none;
   }
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
