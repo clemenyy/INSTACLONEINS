@@ -4,85 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login | Jejugram</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Profile | Jejugram</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <nav class="navigation">
     <a href="feed.html">
-      <img src="images/logo.png" alt="logo">
+      <img src="images/logo.png" />
     </a>
     <input type="text" placeholder="Search">
     <div class="navigation__links">
       <a href="explore.html" class="navigation__link">
-        <i class="fa fa-compass"></i>
+          <i class="fa fa-compass"></i>
+      </a>
+      <a href="#" class="navigation__link">
+          <i class="fa fa-heart-o"></i>
       </a>
       <a href="profile.html" class="navigation__link">
-        <i class="fa fa-heart-o"></i>
-      </a>
-      <a href="profile.html" class="navigation__link">
-        <i class="fa fa-user-o"></i>
+          <i class="fa fa-user-o"></i>
       </a>
     </div>
   </nav>
   <main id="profile">
-    <header class="header">
-      <img src="images/header.jpg">
-      <div class="header__profile">
-        <h1>clemeny.y</h1>
-        <a href="edit-profile.html">
-          <button>Edit Profile</button>
-        </a>
-        <a href="edit-profile.html" class="navigation__link">
-          <i class="fa fa-cog" aria-hidden="true"></i>
-        </a>
-      </div>
-      <ul class="profile__stats">
-        <li class="profile__stats">300 posts</li>
-        <li class="profile__stats">30k followers</li>
-        <li class="profile__stats">0 following</li>
-      </ul>
-      <p class="profile__bio">
-        <span class="full-name">Eunhae Seo</span>
-        🍊 Live, Love, Laugh, and Learn..
-        <a href="http://eunhaeseo.com" class="profile__link">http://eunhaeseo.com</a>
-      </p>
-    </div>
-  </header>
-  <div class="profile__photo-grid">
-    <div class="profile__photo-row">
-        <div class="profile-photo">
-          <img src="images/puppy.png">
-          <div class="profile__photo-overlay">
-            <span class="profile__photo_stat">
-              <i class="fa fa-heart">504</i>
-            </span>
-            <span class="profile__photo-stat">
-              <i class="fa fa-comment">22</i>
-            </span>
+      <header class="profile__header">
+        <div class="avatar__container">
+          <img src="images/avatar.jpg" />
+        </div>
+        <div class="profile__info">
+          <div class="profile__title">
+            <h1>serranoarevalo</h1>
+            <a href="edit-profile.html">
+              <button>Edit Profile</button>
+            </a>
+            <i class="fa fa-cog fa-lg"></i>
+          </div>
+          <ul class="profile__stats">
+            <li class="profile__stat">
+                <span class="profile__stat-number">313</span> posts
+            </li>
+            <li class="profile__stat">
+                <span class="profile__stat-number">4,444</span> followers
+            </li>
+            <li class="profile__stat">
+                <span class="profile__stat-number">44</span> following
+            </li>
+          </ul>
+          <p class="profile__bio">
+            <span class="profile__fullname">Nicolás Serrano Arévalo</span>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Voluptas repellendus cumque quo voluptatum voluptatem,
+             maxime nobis.
+             <a href="http://serranoarevalo.com" class="profile__link">serranoarevalo.com</a>
+          </p>
+        </div>
+      </header>
+      <div class="profile__photo-grid">
+        <div class="profile__photo-row">
+          <div class="profile__photo">
+            <a href="image-detail.html">
+              <img src="images/puppy.png">
+              <div class="profile__photo-overlay">
+                  <span class="profile__photo-stat">
+                    <i class="fa fa-heart">504</i>
+                  </span>
+                  <span class="profile__photo-stat">
+                    <i class="fa fa-comment">22</i>
+                  </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
   </main>
-  <footer>
+  <footer id="footer">
     <nav class="footer__nav">
       <ul class="footer__list">
-        <li class="footer__items"><a href="#" class="footer__link">About</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Support</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Blog</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Press</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">API</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Jobs</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Privacy</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Terms</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Directory</a></li>
-        <li class="footer__items"><a href="#" class="footer__link">Language</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">About us</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Support</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Api</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Directory</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Language</a></li>
       </ul>
     </nav>
     <span class="footer__copyright">© 2017 jejugram</span>
   </footer>
-</body>
-</html>
+  </body>
+  </html>

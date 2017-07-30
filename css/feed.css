@@ -1,0 +1,21 @@
+#feed {
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photo .photo__header > img:nth-child(1) {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.photo .photo__header > img:nth-child(2) {
+  width: 900px;
+  height: 900px;
+}
