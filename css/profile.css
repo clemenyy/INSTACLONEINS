@@ -25,6 +25,7 @@
 
 .avatar__container img {
   border-radius: 50%;
+<<<<<<< HEAD
   transform-style: preserve-3d;
   animation: 1s horse linear;
 }
@@ -36,6 +37,8 @@
   from {
     transform: rotateY(-360deg);
   }
+=======
+>>>>>>> bc3a187ae967658b37ba8a19bff6d00fb594db1f
 }
 
 .profile__info{
@@ -83,6 +86,7 @@
   font-weight: 600;
   color: #003569;
 }
+<<<<<<< HEAD
 
 .profile__photo {
   position: relative;
@@ -147,3 +151,5 @@ profile__photo-row .profile__photo {
   100% {
     transform: none;
   }
+=======
+>>>>>>> bc3a187ae967658b37ba8a19bff6d00fb594db1f
