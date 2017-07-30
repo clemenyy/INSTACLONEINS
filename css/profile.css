@@ -25,6 +25,17 @@
 
 .avatar__container img {
   border-radius: 50%;
+  transform-style: preserve-3d;
+  animation: 1s horse linear;
+}
+
+@@keyframes horse {
+  to {
+    transform:rotateY(360deg);
+  }
+  from {
+    transform: rotateY(-360deg);
+  }
 }
 
 .profile__info{
@@ -72,3 +83,67 @@
   font-weight: 600;
   color: #003569;
 }
+
+.profile__photo {
+  position: relative;
+}
+profile__photo-row .profile__photo {
+  width: 32%;
+}
+
+.profile__photo a img {
+  max-width: 100%;
+}
+
+.profile__photo {
+  position: relative;
+}
+
+.profile__photo .profile__photo-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.profile__photo-overlay .profile__photo-stat {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.profile__photo-overlay .profile__photo-stat:first-child {
+  margin-right: 20px;
+}
+
+.profile__photo:hover .profile__photo-overlay {
+  opacity: 1;
+}
+
+.profile__photo-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile__photo-stat i {
+  transform: scale(40);
+  animation: .5s pump infinite linear;
+}
+
+@keyframes pump {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }

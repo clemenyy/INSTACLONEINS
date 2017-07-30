@@ -1,0 +1,77 @@
+@media screen and (min-width: 320px) and (max-width: 670px){
+  main {
+    margin-top: 0;
+  }
+  body {
+    background-color: #fff;
+  }
+  .navigation input {
+    display: none;
+  }
+
+  /*index page starts*/
+  #login {
+    width: 100%;
+    display: flex;
+  }
+
+.login__column {
+  margin-top: 50px;
+}
+
+#login .login__column:first-child {
+  display: none;
+}
+#login .login__column:nth-child(2){
+  width: 100%;
+}
+
+  /*index page ends*/
+
+  /*profile page starts*/
+  .profile__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .profile__header .profile__info {
+    margin-top: 30px;
+  }
+  .profile__header .profile__info button {
+    width: 50px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .profile__header .profile__info .profile__title__bottom {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .profile__header .profile__info .profile__title__bottom .profile__stats {
+    margin-top: 30px;
+}
+  /*profile page ends*/
+
+
+  /*footer starts */
+  #footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer .footer__list{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__list .footer__item {
+    margin-bottom: 10px;
+  }
+
+  /*footer ends*/
